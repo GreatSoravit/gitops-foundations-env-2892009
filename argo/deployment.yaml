@@ -5,7 +5,7 @@ metadata:
   namespace: argocd-exercise
   annotations:
     # --- ADD THIS ANNOTATION FOR CIRCLECI ---
-    circleci.com/project-id: "fe84c594-4a8f-4e9f-b6ac-92f69b4b9165" # $CIRCLE_PROJECT_ID 
+    circleci.com/project-id: fe84c594-4a8f-4e9f-b6ac-92f69b4b9165 # $CIRCLE_PROJECT_ID 
   labels:
     app: gitops-foundations
     # --- ADD/ADJUST THESE LABELS FOR CIRCLECI ---
