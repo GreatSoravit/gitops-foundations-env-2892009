@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: gitops-foundations
-        image: soravitwetprasit/gitops-foundations:2.0
+        image: soravitwetprasit/gitops-foundations:3.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
