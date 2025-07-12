@@ -10,7 +10,7 @@ metadata:
     app: gitops-foundations
     # --- ADD/ADJUST THESE LABELS FOR CIRCLECI ---
     circleci.com/component-name: gitops-foundations 
-    circleci.com/version: 3.0.0                     # Match your app's version
+    circleci.com/version: 3.0                     # Match your app's version
 
 spec:
   replicas: 3
@@ -23,7 +23,7 @@ spec:
         app: gitops-foundations
         # --- ADD THESE LABELS FOR CIRCLECI (POD TEMPLATE) ---
         circleci.com/component-name: gitops-foundations
-        circleci.com/version: 3.0.0
+        circleci.com/version: 3.0
     spec:
       containers:
       - name: gitops-foundations
